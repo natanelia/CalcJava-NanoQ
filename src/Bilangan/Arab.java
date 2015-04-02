@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Bilangan;
+package Operand;
 
 /**
  *
@@ -71,13 +71,47 @@ public class Arab {
     }
     
     /**
-    *fungsi prosedur div override dari fungsi Operand
+    *fungsi prosedur div 
     *@param A untuk parameter pertama
     */
     public void Div(Arab A){
         nilai/=A.nilai;
     }
-    
+    /**
+    *fungsi kurang dari 
+    *@param A untuk parameter pertama
+    */
+    public boolean LessThan(Arab A){
+        return nilai < A.nilai;
+    }
+    /**
+    *fungsi lebihdari dari 
+    *@param A untuk parameter pertama
+    */
+    public boolean MoreThan(Arab A){
+        return nilai > A.nilai;
+    }
+    /**
+    *fungsi samadengan 
+    *@param A untuk parameter pertama
+    */
+    public boolean Equals(Arab A){
+        return nilai == A.nilai;
+    }
+    /**
+    *fungsi kurang dari sama dengan 
+    *@param A untuk parameter pertama
+    */
+    public boolean LessThanE(Arab A){
+        return this.LessThan(A)||this.Equals(A);
+    }
+    /**
+    *fungsi lebihdari dari sama dengan
+    *@param A untuk parameter pertama
+    */
+    public boolean MoreThanE(Arab A){
+        return this.MoreThan(A)|| this.Equals(A);
+    }
     /**
     *fungsi prosedur setter nilai
     *@param n untuk parameter pertama
