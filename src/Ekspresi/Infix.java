@@ -46,7 +46,8 @@ public class Infix extends Postfix {
         Stack<String> stk = new Stack<String>();
         StringBuilder postfix = new StringBuilder(ekspresiP.length());
 
-        String[] infix = ekspresiP.trim().split("\\s+");
+        String inf = ekspresiP.replace("("," ( ").replace(")"," ) ");
+        String[] infix = inf.trim().split("\\s+");
 
         int j=0;
         for (int i = 0; i < infix.length; i++) {
