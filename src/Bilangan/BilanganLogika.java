@@ -9,7 +9,7 @@ package Operand;
  *
  * @author FiqieUlya
  */
-public class BilanganLogika extends Arab {
+public class BilanganLogika extends BilanganArab {
     
     /**
     *Konstruktor tanpa parameter
@@ -32,7 +32,7 @@ public class BilanganLogika extends Arab {
         nilai=1;
     }else nilai=0;
     }
-    public void operatornot(Arab L){
+    public void operatornot(BilanganArab L){
         if(nilai==1)
             nilai=0;
         else nilai=1;
@@ -43,7 +43,7 @@ public class BilanganLogika extends Arab {
     *operator dengan operand unary
     *@param O untuk parameter pertama
     */
-    public void operatorand(Arab O){
+    public void operatorand(BilanganArab O){
         nilai*=O.getNilai();
     }
 
@@ -52,7 +52,7 @@ public class BilanganLogika extends Arab {
     *operator or
     *@param O untuk parameter pertama
     */
-    public void operatoror(Arab O){
+    public void operatoror(BilanganArab O){
         nilai+=O.getNilai();
         if(nilai==2) nilai=1;
     }
@@ -63,7 +63,7 @@ public class BilanganLogika extends Arab {
     *operator dengan operand unary
     *@param O untuk parameter pertama
     */
-    public void operatorxor(Arab O){
+    public void operatorxor(BilanganArab O){
         if(nilai==O.getNilai())
         nilai=0;
         else nilai=1;
