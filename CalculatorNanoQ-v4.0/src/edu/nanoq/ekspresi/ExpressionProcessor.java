@@ -5,22 +5,21 @@ package edu.nanoq.ekspresi;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import edu.nanoq.bilangan.BilanganArab;
 /**
  * @author Natan
  */
 public class ExpressionProcessor {
     private Postfix expression;
 
-    public ExpressionProcessor(String exp, String operandType) {
+    public ExpressionProcessor(String exp) {
         String[] exps = exp.split(" ");
         if (Postfix.isOperator(exps[exps.length-1])) {
-            expression = new Postfix(exp,operandType);
+            expression = new Postfix(exp);
         }else if (Postfix.isOperator(exps[0])) {
-            expression = new Prefix(exp,operandType);
+            expression = new Prefix(exp);
         }
         else {
-            expression = new Infix(exp,operandType);
+            expression = new Infix(exp);
         }
     }
 

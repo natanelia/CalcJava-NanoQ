@@ -14,22 +14,21 @@ import java.util.Stack;
 public class Infix extends Postfix {
     protected String ekspresiP; /*!ekspresi dalam bentuk postfix*/
 
-    Infix(String _ekspresi, String _operandType) {
-        super(_operandType);
+    Infix(String _ekspresi) {
+        super();
         ekspresiP = _ekspresi;
         convertToPost();
         super.Hitung();
     }
 
     protected boolean isLowerPriority(String op1, String op2) {
-        if (op1.equalsIgnoreCase("+") || op1.equalsIgnoreCase("-"))
-            return !(op1.equalsIgnoreCase("+") || op2.equalsIgnoreCase("-"));
-        else if (op1.equalsIgnoreCase("*") || op1.equalsIgnoreCase("/") || op1.equalsIgnoreCase("div") || op1.equalsIgnoreCase("mod"))
-            return op2.equalsIgnoreCase("(");
-        else if (op1.equalsIgnoreCase("("))
+        if ( op1.equalsIgnoreCase("*") || op1.equalsIgnoreCase("/") || op1.equalsIgnoreCase("mod") || op1.equalsIgnoreCase("div") || op1.equalsIgnoreCase("and")) {
             return true;
-        else
+        } else if ( op2.equalsIgnoreCase("*") || op2.equalsIgnoreCase("/") || op2.equalsIgnoreCase("mod") || op2.equalsIgnoreCase("div") || op2.equalsIgnoreCase("and")) {
             return false;
+        }
+
+        return true;
     }
 
     protected void convertToPost(){

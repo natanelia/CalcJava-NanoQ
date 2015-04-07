@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a99e4d47-4baf-410f-aaa3-58c67f74b561" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\test.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\DATA\Natan\GitHub\CalcJava-NanoQ\CalcJava-NanoQ\CalculatorNanoQ-v1.0\test\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CalculatorNanoQ-v1.0/edu/nanoq/ekspresi/ExpressionProcessor.class" afterPath="$PROJECT_DIR$/out/production/CalculatorNanoQ-v1.0/edu/nanoq/ekspresi/ExpressionProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CalculatorNanoQ-v1.0/edu/nanoq/ekspresi/Prefix.class" afterPath="$PROJECT_DIR$/out/production/CalculatorNanoQ-v1.0/edu/nanoq/ekspresi/Prefix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/kalkulator/Calculator.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/kalkulator/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessor.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/Prefix.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/Prefix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a99e4d47-4baf-410f-aaa3-58c67f74b561" name="Default" comment="" />
     <ignored path="CalculatorNanoQ-v1.0.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -653,12 +632,12 @@
       <updated>1428425353507</updated>
       <workItem from="1428425354848" duration="3632000" />
       <workItem from="1428429106890" duration="112000" />
-      <workItem from="1428429595145" duration="1015000" />
+      <workItem from="1428429595145" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4759000" />
+    <option name="totallyTimeSpent" value="4781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1050" extended-state="0" />
@@ -675,7 +654,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32837406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32837406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
