@@ -11,7 +11,7 @@ package edu.nanoq.ekspresi;
 public class ExpressionProcessor {
     private Postfix expression;
 
-    public ExpressionProcessor(String exp, String operandType) {
+    public ExpressionProcessor(String exp) {
         String[] exps = exp.split(" ");
         if (Postfix.isOperator(exps[exps.length-1])) {
             expression = new Postfix(exp);
