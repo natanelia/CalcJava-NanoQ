@@ -17,12 +17,12 @@ public class PrefixTest extends TestCase{
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9");
+        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9.00");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new Prefix("+ - * MOD 5 4 5 / 60 20 5")).getHasil(), "7");
+        assertEquals((new Prefix("+ - * MOD 5 4 5 / 60 20 5")).getHasil(), "7.00");
     }
 
     @Test
@@ -33,5 +33,10 @@ public class PrefixTest extends TestCase{
     @Test
     public void test6() throws Exception {
         assertEquals((new Prefix("or or not true false and not false false")).getHasil(), "false");
+    }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Prefix("and < 3 5 not true")).getHasil(), "false");
     }
 }

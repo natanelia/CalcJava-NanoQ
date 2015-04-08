@@ -17,12 +17,12 @@ public class InfixTest extends TestCase {
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Infix("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).getHasil(), "9");
+        assertEquals((new Infix("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).getHasil(), "9.50");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new Infix("((5 MOD 4) * 5 - 60 / 20 + 5)")).getHasil(), "7");
+        assertEquals((new Infix("((5 MOD 4) * 5 - 60 / 20 + 5)")).getHasil(), "7.00");
     }
 
     @Test
@@ -33,5 +33,10 @@ public class InfixTest extends TestCase {
     @Test
     public void test6() throws Exception {
         assertEquals((new Infix("(not true or FALSE) OR (not FALSE and false)")).getHasil(), "false");
+    }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Infix("(3 < 5) and (not true)")).getHasil(), "false");
     }
 }

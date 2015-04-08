@@ -4,33 +4,26 @@
  * and open the template in the editor.
  */
 package edu.nanoq.ekspresi;
-import edu.nanoq.bilangan.BilanganLogika;
 import edu.nanoq.bilangan.BilanganArab;
-import java.util.*;
+import edu.nanoq.bilangan.BilanganLogika;
 import edu.nanoq.bilangan.BilanganRomawi;
+
+import java.util.Stack;
 /**
  *
  * @author FiqieUlya
  */
 public class Postfix {
     protected String ekspresi; /*!ekspresi dalam bentuk postfix*/
-    protected String operandType; /*!tipe operand yang sedang dikenainya*/
     protected BilanganArab hasil; /*!hasil '=' perhitungan*/
    
     Postfix() { //default ctor
 	ekspresi = "";
 	hasil = new BilanganArab();
-	operandType = "ARAB";
     }
 
-    Postfix(String _operandType) { //ctor
-	ekspresi = "";
-	hasil = new BilanganArab();
-	operandType = _operandType;
-    }
-    Postfix(String _ekspresi, String _operandType) { //ctor
+    Postfix(String _ekspresi) { //ctor
 	ekspresi = _ekspresi;
-	operandType = _operandType;
 	Hitung();
 }
 

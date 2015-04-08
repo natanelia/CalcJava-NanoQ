@@ -32,7 +32,7 @@ public class Calculator {
         while(n!=999){
         Scanner st = new Scanner(System.in);
         String s = st.nextLine();
-        ExpressionProcessor Perhitungan = new ExpressionProcessor(s,"BilanganArab");
+        ExpressionProcessor Perhitungan = new ExpressionProcessor(s);
         System.out.println(Perhitungan.toString());
         }
     }
