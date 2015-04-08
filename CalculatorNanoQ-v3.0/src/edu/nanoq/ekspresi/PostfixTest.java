@@ -17,12 +17,12 @@ public class PostfixTest extends TestCase {
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Postfix("5 4 MOD 5 * -4 - 60 20 / 1 5 + / +")).getHasil(), "9");
+        assertEquals((new Postfix("5 4 MOD 5 * -4 - 60 20 / 1 5 + / +")).getHasil(), "9.50");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new Postfix("5 4 MOD 5 * 60 20 / - 5 +")).getHasil(), "7");
+        assertEquals((new Postfix("5 4 MOD 5 * 60 20 / - 5 +")).getHasil(), "7.00");
     }
 
     @Test
@@ -33,5 +33,10 @@ public class PostfixTest extends TestCase {
     @Test
     public void test6() throws Exception {
         assertEquals((new Postfix("not true false or not false false and or")).getHasil(), "false");
+    }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Postfix("3 5 < not true and")).getHasil(), "false");
     }
 }

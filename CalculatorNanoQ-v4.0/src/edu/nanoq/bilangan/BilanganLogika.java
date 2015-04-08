@@ -27,7 +27,6 @@ public class BilanganLogika extends BilanganArab {
     */
     public BilanganLogika(String L){
         //precondition
-        assert(L.equalsIgnoreCase("TRUE") || L.equalsIgnoreCase("FALSE") );
         ConvertToBilanganArab(L);
     }
     public void operatorNot(){

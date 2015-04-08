@@ -13,19 +13,6 @@ import java.util.*;
  */
 
 public class Calculator {
-    public void strSplit(String in, char delimiter, Vector<String> strings) {
-	strings.clear();
-	int x=0;
-	for (int i=1; i<in.length(); i++) {
-		if (in.charAt(i)== delimiter) {
-			String s = in.substring(x,i-x);
-			strings.add(s);
-			x = i+1;
-		}
-	}
-	if (in.length() > 0)
-		strings.add(in.substring(x, in.length()));
-}
     public static void main (String args[]){
         CommandProcessor cmd = new CommandProcessor();
         int n =1;
@@ -36,7 +23,7 @@ public class Calculator {
             try{
                 cmd.doCommand(s);
             } catch (IllegalArgumentException e){
-                ExpressionProcessor Perhitungan = new ExpressionProcessor(e.getMessage(),"BilanganArab");
+                ExpressionProcessor Perhitungan = new ExpressionProcessor(e.getMessage());
                 System.out.println(Perhitungan.toString());
             }
         }
