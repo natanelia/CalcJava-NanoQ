@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b6be12-97df-4c78-a1ce-9f5a40124649" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CalculatorNanoQ-v2.0.iml" afterPath="$PROJECT_DIR$/.idea/CalculatorNanoQ-v2.0.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessorTest.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/InfixTest.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/InfixTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v1.0/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v3.0/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="D:\Projects\CalcJava-NanoQ\CalculatorNanoQ-v3.0\out\production\CalculatorNanoQ-v3.0\edu\nanoq\kalkulator\Calculator.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganArab.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganArab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganLogika.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganLogika.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganRomawi.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/bilangan/BilanganRomawi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/kalkulator/Calculator.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/kalkulator/Calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Command.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Command.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/CommandProcessor.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/CommandProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/ExpressionProcessor.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/ExpressionProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/ExpressionProcessorTest.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/ExpressionProcessorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Infix.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Infix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/InfixTest.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/InfixTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Postfix.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Postfix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/PostfixTest.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/PostfixTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Prefix.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/Prefix.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/PrefixTest.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/ekspresi/PrefixTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Redo.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Redo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/ShowAll.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/ShowAll.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/ShowMem.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/ShowMem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Undo.class" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/out/production/CalculatorNanoQ-v4.0/edu/nanoq/perintah/Undo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/src/edu/nanoq/kalkulator/Main.java" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/src/edu/nanoq/kalkulator/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/.idea/misc.xml" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v1.0/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v1.0/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v3.0/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v3.0/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v4.0/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Projects\CalcJava-NanoQ\CalculatorNanoQ-v1.0\src\edu\nanoq\kalkulator\Calculator.java" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v1.0/src/edu/nanoq/kalkulator/Main.java" />
+      <change type="MOVED" beforePath="D:\Projects\CalcJava-NanoQ\CalculatorNanoQ-v2.0\src\edu\nanoq\kalkulator\Calculator.java" afterPath="$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java" />
+      <change type="MOVED" beforePath="D:\Projects\CalcJava-NanoQ\CalculatorNanoQ-v3.0\src\edu\nanoq\kalkulator\Calculator.java" afterPath="$PROJECT_DIR$/../CalculatorNanoQ-v3.0/src/edu/nanoq/kalkulator/Main.java" />
     </list>
     <ignored path="CalculatorNanoQ-v2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,71 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExpressionProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessor.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpressionProcessorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1529" max-vertical-offset="1972">
-              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="110" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Postfix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/Postfix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1580" max-vertical-offset="2482">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostfixTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="952">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfixTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/InfixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="969">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="51" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrefixTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64116096" vertical-offset="573" max-vertical-offset="952">
-              <caret line="49" column="85" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.15816326" vertical-offset="6" max-vertical-offset="442">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -121,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/edu/nanoq/ekspresi/InfixTest.java" />
         <option value="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java" />
         <option value="$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java" />
       </list>
     </option>
   </component>
@@ -158,6 +123,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,6 +163,10 @@
               <option name="myItemId" value="nanoq" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kalkulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -215,15 +185,10 @@
               <option name="myItemId" value="nanoq" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ekspresi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +210,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.PrefixTest">
+  <component name="RunManager" selected="JUnit.edu.nanoq.ekspresi in CalculatorNanoQ-v2.0">
     <configuration default="false" name="PostfixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -350,6 +315,34 @@
       <option name="MAIN_CLASS_NAME" value="edu.nanoq.ekspresi.ExpressionProcessorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="edu.nanoq.ekspresi in CalculatorNanoQ-v2.0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="edu.nanoq.ekspresi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CalculatorNanoQ-v2.0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.nanoq.ekspresi" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -512,19 +505,21 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PostfixTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.InfixTest" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.PrefixTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.ExpressionProcessorTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.edu.nanoq.ekspresi in CalculatorNanoQ-v2.0" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PrefixTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PostfixTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExpressionProcessorTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InfixTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.edu.nanoq.ekspresi in CalculatorNanoQ-v2.0" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrefixTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PostfixTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExpressionProcessorTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InfixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -538,11 +533,12 @@
       <workItem from="1428465750669" duration="45000" />
       <workItem from="1428465812019" duration="1025000" />
       <workItem from="1428500419196" duration="998000" />
+      <workItem from="1428501900692" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2068000" />
+    <option name="totallyTimeSpent" value="2225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -559,7 +555,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -602,6 +598,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="544">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1529" max-vertical-offset="1972">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="110" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/Postfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1580" max-vertical-offset="2482">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/PostfixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="952">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/InfixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="969">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/ExpressionProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="544">
@@ -650,15 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
@@ -715,8 +759,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/nanoq/ekspresi/PrefixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64116096" vertical-offset="573" max-vertical-offset="952">
+        <state vertical-scroll-proportion="0.8076923" vertical-offset="333" max-vertical-offset="952">
           <caret line="49" column="85" selection-start-line="49" selection-start-column="85" selection-end-line="49" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/nanoq/kalkulator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15816326" vertical-offset="6" max-vertical-offset="442">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
