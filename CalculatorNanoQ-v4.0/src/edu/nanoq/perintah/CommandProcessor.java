@@ -38,7 +38,7 @@ public class CommandProcessor {
         } else if (sList[0].equalsIgnoreCase("SHOWMEM")){
             Command cmd = new ShowMem(Integer.parseInt(sList[1]));
             cmd.execute();
-        } else if (sList[0].equalsIgnoreCase("SHOWALL")){
+        } else if (sList[0].equalsIgnoreCase("SHOW") && sList[1].equalsIgnoreCase("ALL") ){
             Command cmd = new ShowAll();
             cmd.execute();
         }
