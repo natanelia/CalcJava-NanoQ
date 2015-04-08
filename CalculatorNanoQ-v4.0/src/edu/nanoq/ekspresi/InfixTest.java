@@ -39,4 +39,15 @@ public class InfixTest extends TestCase {
     public void test7() throws Exception {
         assertEquals((new Infix("(3 < 5) and (not true)")).getHasil(), "false");
     }
+
+
+    @Test
+    public void test20() throws Exception {
+        assertEquals((new ExpressionProcessor("(3 < 5) and (not true) or (1 > 2) or (1 >= (9 + 3))")).toString(), "false");
+    }
+
+    @Test
+    public void test21() throws Exception {
+        assertEquals((new ExpressionProcessor("((not not true and not not not false) or (not not false))")).toString(), "true");
+    }
 }

@@ -102,21 +102,11 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test20() throws Exception {
-        assertEquals((new ExpressionProcessor("(3 < 5) and (not true)")).toString(), "false");
+        assertEquals((new ExpressionProcessor("(3 < 5) and (not true) or (1 > 2) or (1 >= (9 + 3))")).toString(), "false");
     }
 
     @Test
     public void test21() throws Exception {
-        assertEquals((new ExpressionProcessor("and < 3 5 not true")).toString(), "false");
-    }
-
-    @Test
-    public void test20() throws Exception {
-        assertEquals((new ExpressionProcessor("(3 < 5) and (not true)")).toString(), "false");
-    }
-
-    @Test
-    public void test21() throws Exception {
-        assertEquals((new ExpressionProcessor("and < 3 5 not true")).toString(), "false");
+        assertEquals((new ExpressionProcessor("((not not true and not not not false) or (not not false))")).toString(), "true");
     }
 }

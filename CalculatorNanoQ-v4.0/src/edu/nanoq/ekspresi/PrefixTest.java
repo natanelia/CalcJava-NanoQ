@@ -39,4 +39,14 @@ public class PrefixTest extends TestCase{
     public void test7() throws Exception {
         assertEquals((new Prefix("and < 3 5 not true")).getHasil(), "false");
     }
+
+    @Test
+    public void test20() throws Exception {
+        assertEquals((new ExpressionProcessor("or or and < 3 5 not true > 1 2 >= 1 + 9 3")).toString(), "false");
+    }
+
+    @Test
+    public void test21() throws Exception {
+        assertEquals((new ExpressionProcessor("or and not not true not not not false not false")).toString(), "true");
+    }
 }

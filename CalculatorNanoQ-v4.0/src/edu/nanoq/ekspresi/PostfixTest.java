@@ -39,4 +39,14 @@ public class PostfixTest extends TestCase {
     public void test7() throws Exception {
         assertEquals((new Postfix("3 5 < not true and")).getHasil(), "false");
     }
+
+    @Test
+    public void test20() throws Exception {
+        assertEquals((new ExpressionProcessor("3 5 < not true and 1 2 > or 1 9 3 + >= or")).toString(), "false");
+    }
+
+    @Test
+    public void test21() throws Exception {
+        assertEquals((new ExpressionProcessor("not not true not not not false and not not false or")).toString(), "true");
+    }
 }
