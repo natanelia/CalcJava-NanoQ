@@ -12,17 +12,17 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test2() throws Exception {
-        assertEquals((new ExpressionProcessor("(2 - 1 + 8)")).toString(), "(2 - 1 + 8) = 9");
+        assertEquals((new Infix("(9 / 3 + 2 - 1 + 8)")).getHasil(), "12.00");
     }
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new ExpressionProcessor("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).toString(), "((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5)) = 9");
+        assertEquals((new ExpressionProcessor("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).toString(), "((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5)) = 9.50");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new ExpressionProcessor("((5 MOD 4) * 5 - 60 / 20 + 5)")).toString(), "((5 MOD 4) * 5 - 60 / 20 + 5) = 7");
+        assertEquals((new ExpressionProcessor("((5 MOD 4) * 5 - 60 / 20 + 5)")).toString(), "((5 MOD 4) * 5 - 60 / 20 + 5) = 7.00");
     }
 
     @Test
@@ -48,12 +48,12 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test9() throws Exception {
-        assertEquals((new ExpressionProcessor("5 4 MOD 5 * -4 - 60 20 / 1 5 + / +")).toString(), "5 4 MOD 5 * -4 - 60 20 / 1 5 + / + = 9");
+        assertEquals((new ExpressionProcessor("5 4 MOD 5 * -4 - 60 20 / 1 5 + / +")).toString(), "5 4 MOD 5 * -4 - 60 20 / 1 5 + / + = 9.50");
     }
 
     @Test
     public void test10() throws Exception {
-        assertEquals((new ExpressionProcessor("5 4 MOD 5 * 60 20 / - 5 +")).toString(), "5 4 MOD 5 * 60 20 / - 5 + = 7");
+        assertEquals((new ExpressionProcessor("5 4 MOD 5 * 60 20 / - 5 +")).toString(), "5 4 MOD 5 * 60 20 / - 5 + = 7.00");
     }
 
     @Test
@@ -78,12 +78,12 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test15() throws Exception {
-        assertEquals((new ExpressionProcessor("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).toString(), "+ / - * MOD 5 4 5 -4 / 60 20 + 1 5 = 9");
+        assertEquals((new ExpressionProcessor("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).toString(), "+ / - * MOD 5 4 5 -4 / 60 20 + 1 5 = 9.00");
     }
 
     @Test
     public void test16() throws Exception {
-        assertEquals((new ExpressionProcessor("+ - * MOD 5 4 5 / 60 20 5")).toString(), "+ - * MOD 5 4 5 / 60 20 5 = 7");
+        assertEquals((new ExpressionProcessor("+ - * MOD 5 4 5 / 60 20 5")).toString(), "+ - * MOD 5 4 5 / 60 20 5 = 7.00");
     }
 
     @Test

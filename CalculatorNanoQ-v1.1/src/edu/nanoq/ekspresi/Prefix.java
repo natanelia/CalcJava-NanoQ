@@ -23,28 +23,32 @@ public class Prefix extends Postfix {
     public void convertToPost() { //melakukan konversi ekspresi prefix ke postfix dan mengupdate string ekspresi (Postfix)
         Stack<String> stk = new Stack<String>();
         String[] post = ekspresiP.trim().split("\\s+");
+        ekspresi = "";
 
         int x = 0;
-        int j = 0;
         for (int i = 0; i < post.length; i++) {
             if (Postfix.isOperator(post[i])) {
                 if (post[i].equalsIgnoreCase("not")) {
                     ekspresi = ekspresi + post[i] + " " + post[++i] + " ";
+                    while (!stk.empty() && stk.peek().equals("#")) {
+                        stk.pop();
+                        ekspresi = ekspresi + stk.peek() + " ";
+                        stk.pop();
+                    }
+                    stk.push("#");
                 } else
-                    stk.add(post[i]);
+                    stk.push(post[i]);
             } else {
                 ekspresi = ekspresi + post[i] + " ";
-                j++;
                 while (!stk.empty() && stk.peek().equals("#")) {
                     stk.pop();
                     ekspresi = ekspresi + stk.peek() + " ";
-                    j++;
                     stk.pop();
                 }
                 stk.push("#");
             }
         }
-        ekspresi = ekspresi.substring(0, ekspresi.length() - 1);
+        ekspresi = ekspresi.trim();
     }
 
     public String getEkspresi() {

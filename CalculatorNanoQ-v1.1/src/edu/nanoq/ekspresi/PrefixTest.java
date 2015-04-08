@@ -17,7 +17,7 @@ public class PrefixTest extends TestCase {
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9.50");
+        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9.00");
     }
 
     @Test
