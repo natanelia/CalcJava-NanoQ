@@ -94,4 +94,14 @@ public class ExpressionProcessorTest extends TestCase {
     public void test18() throws Exception {
         assertEquals((new ExpressionProcessor("or or not true false and not false false")).toString(), "or or not true false and not false false = false");
     }
+
+    @Test
+    public void test19() throws Exception {
+        assertEquals((new ExpressionProcessor("((IX - VII + VI) / I - II * I)")).toString(), "((IX - VII + VI) / I - II * I) = VI");
+    }
+
+    @Test
+    public void test20() throws Exception {
+        assertEquals((new ExpressionProcessor("(XIII - IX)")).toString(), "(XIII - IX) = IV");
+    }
 }

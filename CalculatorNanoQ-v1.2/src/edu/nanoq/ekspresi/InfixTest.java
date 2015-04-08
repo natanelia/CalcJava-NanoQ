@@ -34,4 +34,14 @@ public class InfixTest extends TestCase {
     public void test6() throws Exception {
         assertEquals((new Infix("(not true or FALSE) OR (not FALSE and false)")).getHasil(), "false");
     }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Infix("((IX - VII + VI) / I - II * I)")).getHasil(), "VI");
+    }
+
+    @Test
+    public void test8() throws Exception {
+        assertEquals((new Infix("(XIII - IX)")).getHasil(), "IV");
+    }
 }

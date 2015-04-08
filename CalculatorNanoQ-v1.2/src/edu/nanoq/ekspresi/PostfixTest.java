@@ -34,4 +34,14 @@ public class PostfixTest extends TestCase {
     public void test6() throws Exception {
         assertEquals((new Postfix("not true false or not false false and or")).getHasil(), "false");
     }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Postfix("IX VII - VI + I / II I * -")).getHasil(), "VI");
+    }
+
+    @Test
+    public void test8() throws Exception {
+        assertEquals((new Postfix("XIII IX -")).getHasil(), "IV");
+    }
 }

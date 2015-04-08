@@ -34,4 +34,14 @@ public class PrefixTest extends TestCase{
     public void test6() throws Exception {
         assertEquals((new Prefix("or or not true false and not false false")).getHasil(), "false");
     }
+
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Prefix("- / + - IX VII VI I * II I")).getHasil(), "VI");
+    }
+
+    @Test
+    public void test8() throws Exception {
+        assertEquals((new Prefix("- XIII IX")).getHasil(), "IV");
+    }
 }
