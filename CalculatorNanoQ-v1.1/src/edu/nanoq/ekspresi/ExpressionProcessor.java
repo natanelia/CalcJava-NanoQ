@@ -5,6 +5,7 @@ package edu.nanoq.ekspresi;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 /**
  * @author Natan
  */
@@ -13,12 +14,11 @@ public class ExpressionProcessor {
 
     public ExpressionProcessor(String exp) {
         String[] exps = exp.split(" ");
-        if (Postfix.isOperator(exps[exps.length-1])) {
+        if (Postfix.isOperator(exps[exps.length - 1])) {
             expression = new Postfix(exp);
-        }else if (Postfix.isOperator(exps[0])) {
+        } else if (Postfix.isOperator(exps[0])) {
             expression = new Prefix(exp);
-        }
-        else {
+        } else {
             expression = new Infix(exp);
         }
     }

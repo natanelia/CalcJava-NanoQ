@@ -3,11 +3,11 @@ package edu.nanoq.ekspresi;
 import junit.framework.TestCase;
 import org.junit.Test;
 
-public class PrefixTest extends TestCase{
+public class PrefixTest extends TestCase {
 
     @Test
     public void test1() throws Exception {
-        assertEquals((new Prefix("2")).getHasil(),"2");
+        assertEquals((new Prefix("2")).getHasil(), "2");
     }
 
     @Test
@@ -17,12 +17,12 @@ public class PrefixTest extends TestCase{
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9");
+        assertEquals((new Prefix("+ / - * MOD 5 4 5 -4 / 60 20 + 1 5")).getHasil(), "9.50");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new Prefix("+ - * MOD 5 4 5 / 60 20 5")).getHasil(), "7");
+        assertEquals((new Prefix("+ - * MOD 5 4 5 / 60 20 5")).getHasil(), "7.00");
     }
 
     @Test
@@ -33,5 +33,14 @@ public class PrefixTest extends TestCase{
     @Test
     public void test6() throws Exception {
         assertEquals((new Prefix("or or not true false and not false false")).getHasil(), "false");
+    }
+    @Test
+    public void test7() throws Exception {
+        assertEquals((new Prefix("div 5.2 2")).getHasil(), "2");
+    }
+
+    @Test
+    public void test8() throws Exception {
+        assertEquals((new Prefix("+ - + / 9 3 2 1 8")).getHasil(), "12.00");
     }
 }

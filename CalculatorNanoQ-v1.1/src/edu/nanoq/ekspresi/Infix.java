@@ -8,7 +8,6 @@ package edu.nanoq.ekspresi;
 import java.util.Stack;
 
 /**
- *
  * @author Natan
  */
 public class Infix extends Postfix {
@@ -22,26 +21,25 @@ public class Infix extends Postfix {
     }
 
     protected boolean isLowerPriority(String op1, String op2) {
-        if ( op1.equalsIgnoreCase("*") || op1.equalsIgnoreCase("/") || op1.equalsIgnoreCase("mod") || op1.equalsIgnoreCase("div") || op1.equalsIgnoreCase("and")) {
+        if (op1.equalsIgnoreCase("*") || op1.equalsIgnoreCase("/") || op1.equalsIgnoreCase("mod") || op1.equalsIgnoreCase("div") || op1.equalsIgnoreCase("and")) {
             return true;
-        } else if ( op2.equalsIgnoreCase("*") || op2.equalsIgnoreCase("/") || op2.equalsIgnoreCase("mod") || op2.equalsIgnoreCase("div") || op2.equalsIgnoreCase("and")) {
+        } else if (op2.equalsIgnoreCase("*") || op2.equalsIgnoreCase("/") || op2.equalsIgnoreCase("mod") || op2.equalsIgnoreCase("div") || op2.equalsIgnoreCase("and")) {
             return false;
         }
 
         return true;
     }
 
-    protected void convertToPost(){
+    protected void convertToPost() {
         //mengubah ekspresi Infix ke Postfix
         Stack<String> stk = new Stack<String>();
         StringBuilder postfix = new StringBuilder(ekspresiP.length());
 
-        String inf = ekspresiP.replace("("," ( ").replace(")"," ) ");
+        String inf = ekspresiP.replace("(", " ( ").replace(")", " ) ");
         String[] infx = inf.trim().split("\\s+");
         String[] infix = new String[infx.length];
         int x = 0;
-        for (int i = 0; i < infx.length; i++)
-        {
+        for (int i = 0; i < infx.length; i++) {
             infix[x] = infx[i];
             if (infx[i].equalsIgnoreCase("not")) {
                 infix[x] = infix[x].concat(" " + infx[++i]);
@@ -49,7 +47,7 @@ public class Infix extends Postfix {
             x++;
         }
 
-        int j=0;
+        int j = 0;
         for (int i = 0; i < x; i++) {
             if (infix[i].equalsIgnoreCase("("))
                 stk.push(infix[i]);
@@ -88,7 +86,9 @@ public class Infix extends Postfix {
         ekspresi = postfix.toString().trim();
     }
 
-    public String getEkspresi() { return ekspresiP; }
+    public String getEkspresi() {
+        return ekspresiP;
+    }
 
     public void setEkspresi(String _ekspresi) {
         ekspresiP = _ekspresi;

@@ -7,7 +7,7 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test1() throws Exception {
-        assertEquals((new ExpressionProcessor("(1 + 1)")).toString(),"(1 + 1) = 2");
+        assertEquals((new ExpressionProcessor("(1 + 1)")).toString(), "(1 + 1) = 2");
     }
 
     @Test
@@ -38,7 +38,7 @@ public class ExpressionProcessorTest extends TestCase {
 
     @Test
     public void test7() throws Exception {
-        assertEquals((new ExpressionProcessor("1")).toString(),"1 = 1");
+        assertEquals((new ExpressionProcessor("1")).toString(), "1 = 1");
     }
 
     @Test
@@ -65,9 +65,10 @@ public class ExpressionProcessorTest extends TestCase {
     public void test12() throws Exception {
         assertEquals((new ExpressionProcessor("not true false or not false false and or")).toString(), "not true false or not false false and or = false");
     }
+
     @Test
     public void test13() throws Exception {
-        assertEquals((new ExpressionProcessor("2")).toString(),"2 = 2");
+        assertEquals((new ExpressionProcessor("2")).toString(), "2 = 2");
     }
 
     @Test

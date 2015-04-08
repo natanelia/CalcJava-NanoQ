@@ -7,22 +7,22 @@ public class InfixTest extends TestCase {
 
     @Test
     public void test1() throws Exception {
-        assertEquals((new Infix("(1 + 1)")).getHasil(),"2");
+        assertEquals((new Infix("(5.2 div 2)")).getHasil(), "2");
     }
 
     @Test
     public void test2() throws Exception {
-        assertEquals((new Infix("(2 - 1 + 8)")).getHasil(), "9");
+        assertEquals((new Infix("(9 / 3 + 2 - 1 + 8)")).getHasil(), "12.00");
     }
 
     @Test
     public void test3() throws Exception {
-        assertEquals((new Infix("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).getHasil(), "9");
+        assertEquals((new Infix("((5 MOD 4) * 5 - -4 + (60 / 20) / (1 + 5))")).getHasil(), "9.50");
     }
 
     @Test
     public void test4() throws Exception {
-        assertEquals((new Infix("((5 MOD 4) * 5 - 60 / 20 + 5)")).getHasil(), "7");
+        assertEquals((new Infix("((5 MOD 4) * 5 - 60 / 20 + 5)")).getHasil(), "7.00");
     }
 
     @Test
