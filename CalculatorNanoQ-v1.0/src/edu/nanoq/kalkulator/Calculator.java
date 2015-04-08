@@ -4,23 +4,24 @@
  * and open the template in the editor.
  */
 package edu.nanoq.kalkulator;
+
 import edu.nanoq.ekspresi.ExpressionProcessor;
+
 import java.util.*;
+
 /**
- *
  * @author FiqieUlya
  */
 
 public class Calculator {
-    public static void main (String args[]){
-        System.out.println("> ");
+    public static void main(String args[]) {
         Vector<String> sp;
-        int n =1;
-        while(n!=999){
+        int n = 1;
         Scanner st = new Scanner(System.in);
-        String s = st.nextLine();
-        ExpressionProcessor Perhitungan = new ExpressionProcessor(s);
-        System.out.println(Perhitungan.toString());
+        while (n != 999) {
+            String s = st.nextLine();
+            ExpressionProcessor Perhitungan = new ExpressionProcessor(s);
+            System.out.println(Perhitungan.toString());
         }
     }
 }

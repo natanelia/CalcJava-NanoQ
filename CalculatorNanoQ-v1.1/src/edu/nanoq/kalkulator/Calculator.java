@@ -13,7 +13,6 @@ import java.util.*;
 
 public class Calculator {
     public static void main (String args[]){
-        System.out.println("> ");
         Vector<String> sp;
         int n =1;
         while(n!=999){

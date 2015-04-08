@@ -24,6 +24,6 @@ public class ExpressionProcessor {
     }
 
     public String toString() {
-        return expression.getEkspresi() + " = " + expression.getHasil();
+        return expression.getHasil();
     }
 }

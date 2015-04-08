@@ -13,11 +13,10 @@ import java.util.*;
 
 public class Calculator {
     public static void main (String args[]){
-        System.out.println("> ");
         Vector<String> sp;
         int n =1;
-        while(n!=999){
         Scanner st = new Scanner(System.in);
+        while(n!=999){
         String s = st.nextLine();
         ExpressionProcessor Perhitungan = new ExpressionProcessor(s);
         System.out.println(Perhitungan.toString());

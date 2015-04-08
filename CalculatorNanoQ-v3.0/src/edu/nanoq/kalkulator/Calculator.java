@@ -16,9 +16,9 @@ public class Calculator {
     public static void main (String args[]){
         CommandProcessor cmd = new CommandProcessor();
         int n =1;
+        Scanner st = new Scanner(System.in);
         while(n!=999){
             System.out.print("> ");
-            Scanner st = new Scanner(System.in);
             String s = st.nextLine();
             try{
                 cmd.doCommand(s);

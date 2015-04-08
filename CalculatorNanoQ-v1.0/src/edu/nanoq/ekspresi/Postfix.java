@@ -14,28 +14,18 @@ import java.util.*;
 public class Postfix {
     protected String ekspresi; /*!ekspresi dalam bentuk postfix*/
     protected BilanganArab hasil; /*!hasil '=' perhitungan*/
-   
-    Postfix() { //default ctor
-	ekspresi = "";
-	hasil = new BilanganArab();
-	
-    }
 
-    Postfix(String _operandType) { //ctor
+
+    Postfix() { //ctor
 	ekspresi = "";
 	hasil = new BilanganArab();
 
     }
-    Postfix(String _ekspresi, String _operandType) { //ctor
+    Postfix(String _ekspresi) { //ctor
 	ekspresi = _ekspresi;
 	Hitung();
 }
 
-
-    Postfix(Postfix P) { //cctor
-	ekspresi = P.ekspresi;
-	hasil = P.hasil;
-}
     public static boolean isOperator(String s) {
         return s.equalsIgnoreCase("+") ||
                 s.equalsIgnoreCase("-") ||
@@ -55,11 +45,6 @@ public class Postfix {
                 s.equalsIgnoreCase("==");
     }
 
-    public Postfix operatorequal(Postfix P) { //assign
-	ekspresi = P.ekspresi;
-	hasil = P.hasil;
-	return this;
-}
     protected void Hitung(){
         //melakukan perhitungan berdasarkan ekspresi yang menghasilkan Operand hasil
 	Stack<BilanganArab> tabEkspresi = new Stack<BilanganArab>();
