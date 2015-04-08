@@ -33,7 +33,7 @@ public class CommandProcessor {
                 undo(Integer.parseInt(input[1]));
             } else if (input[0].equalsIgnoreCase("SHOWMEM")){
                 showMem(Integer.parseInt(input[1]));
-            } else if (input[0].equalsIgnoreCase("SHOWALL")){
+            } else if (input[0].equalsIgnoreCase("SHOW") && input[1].equalsIgnoreCase("ALL")){
                 showAll();
             } else{
                 throw new IllegalArgumentException(s);
